@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-image: url('backg.png');
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+ 
+   
+}
+.wrapper {
+    
+    width: 1152px;
+    height: 1626px;
+    border: 2px solid rgb(221, 212, 212);
+    border-radius: 3px;
+    background:  #F9FCFC;
+    display: inline-block;
+
+}
+
+.wrapper h1 {
+    margin: 2rem 2rem;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
+.about-us {
+    
+    display: flex;
+    margin-top: 60px;
+    margin-left: 100px;
+    
+}
+.who {
+    margin-left: 20px;
+}
+ p {
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 18px;
+    width: 513px;
+    height: 168px;
+    line-height: 21px;
+
+}
+h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 30px;
+    
+}
+
+
+.contact-us {
+border: 2px solid rgb(192, 177, 177);
+text-align: center;
+border-radius: 4px;
+width: 852px;
+margin-left: 140px;
+height: 657px;
+
+offset: 0px 4px;
+margin-top: 150px;
+box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+
+label {
+    display: block;
+    padding-left: 93px;
+    line-height: 21.09px;
+
+
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 10px;
+  
+}
+
+input {
+    width: 663px;
+    height: 43px;
+    border-radius: 5px;
+  margin-bottom: 30px;
+}
+.contact-us h1 {
+    font-size: 50px;
+    text-align: left;
+    padding-left: 55px;
+}
+
+.message {
+    width: 663px;
+    height: 160px;
+    border-radius: 5px;
+}
+
+button {
+    width: 217px;
+    border-radius: 8px;
+    height: 40px;
+    background: #004DE6C2;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 30px;
+    color: #FFFFFF;
+    ;
+
+}
